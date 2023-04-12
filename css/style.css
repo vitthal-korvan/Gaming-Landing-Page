@@ -6,6 +6,7 @@
     --ogcol:#F4694C;
     --white: #fff;
     --black: #000;
+    --pink: #ffbdae;
 
     /* font-family  */
     --ffp:'Poppins',
@@ -192,5 +193,120 @@ p{
 
 .hero-header{
     text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* ---------- Game Cards --------- */
+
+
+/* ---------  War Game ----------*/
+.war-game{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6em;
+}
+
+.war-game-img{
+    height: 55vh;
+    width: 35vw;
+    object-fit: cover;
+}
+
+
+.war-game-right > h1{
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+}
+
+.war-game-right > p{
+    margin-bottom: 4em;
+}
+
+.explore-now{
+    color: var(--ogcol);
+    border: 1px solid var(--ogcol);
+    margin-right: 1em;
+    padding: 1em 2em;
+}
+
+.explore-now:hover{
+    color: var(--white);
+}
+
+/* -------------- Game Recommended ------------ */
+
+.game-recom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+
+.game-recom > h1{
+    font-size: 3rem;
+    margin-left: 2.6em;
+}
+
+.arrows{
     margin-top: 3em;
+    margin-right: 6em;
+}
+
+.left-arrow{
+    background-color: var(--pink);
+}
+
+.right-arrow{
+    background-color: var(--ogcol);
+}
+
+.left-arrow,
+.right-arrow{
+    padding: 1em 1em;
+}
+
+/* ------------ Battle Game Cards + Texts ------------ */
+
+.battle-game{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+}
+
+.battle-game-rows{
+    display: flex;
+
+}
+
+.battle-game-img{
+    height: 37vh;
+    object-fit: cover;
+}
+
+.battle-game-script{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+}
+
+.battle-game-script > h3{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+}
+
+.battle-game-script > h4{
+    color: var(--ogcol);
+    margin-bottom: 1.6em;
+}
+
+.download-btn{
+    margin-top: 2em;
+    color: var(--white);
+    background-color: var(--ogcol);
+    padding: 1em 2em;
+    width: 45%;
+}
+
+.download-btn:hover{
+    border: 2px solid var(--black);
 }
