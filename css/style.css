@@ -317,8 +317,11 @@ p{
     Ending Cards
 ================ */
 .ending-card{
-    filter: brightness(30%);
-    background-image: url(../assets/Photos/Rectangle\ 606.png);
+    /* filter: brightness(30%); */
+    background: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5)
+      ),url(../assets/Photos/Rectangle\ 606.png);
     height: 70vh;
     background-repeat: no-repeat;
     background-color: #404040;
@@ -335,15 +338,13 @@ p{
 
 .ending-card > p{
     margin-top: 1.5em;
+    margin-bottom: 3em;
 }
 
 .ending-card-btn{
     color: var(--white);
     background-color: var(--ogcol);
     padding: 1em 2em;
-    position: absolute;
-    left: 42em;
-    bottom: 6em;
 
 }
 
