@@ -313,6 +313,67 @@ p{
     border: 2px solid var(--black);
 }
 
+
+/* =============
+Most Played Games
+=============== */
+.most-played{
+    background-color: var(--black);
+    overflow: hidden;
+}
+
+.most-played > h1{
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.most-played > p{
+    position: relative;
+    top : 6em;
+    left: 40em;
+    opacity: 0.6;
+}
+
+.game-world{
+    background-image: url(../assets/Icons/GAMES\ OF\ THE\ WORLD.svg);
+    height: 5em;
+    width: 63vw;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: cover;
+    top: 11em;
+    left: 35em;
+}
+
+.most-played-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -6em;
+    margin-bottom: 4em;
+}
+
+.rect-17{
+    height: 500px;
+    object-fit: cover;
+    margin-left: 4em;
+}
+
+.rect-18{
+    height: 480px;
+    object-fit: cover;
+    margin-top: 15em;
+}
+
+.rect-90{
+    height: 300px;
+    width: 20vw;
+    object-fit: cover;
+    margin-top: 26.3em;
+    margin-right: 6em;
+}
+
+
+
 /* ==============
     Ending Cards
 ================ */
