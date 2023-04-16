@@ -7,6 +7,8 @@
     --white: #fff;
     --black: #000;
     --pink: #ffbdae;
+    --footerbg:#000309;
+    --dividerbg:#000611;
 
     /* font-family  */
     --ffp:'Poppins',
@@ -309,4 +311,108 @@ p{
 
 .download-btn:hover{
     border: 2px solid var(--black);
+}
+
+/* ==============
+    Ending Cards
+================ */
+.ending-card{
+    filter: brightness(30%);
+    background-image: url(../assets/Photos/Rectangle\ 606.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-color: #404040;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+}
+
+.ending-card-header{
+    filter: brightness(100%);
+    padding-top: 2em;
+    /* color: var(--white); */
+}
+
+.ending-card > p{
+    margin-top: 1.5em;
+}
+
+.ending-card-btn{
+    color: var(--white);
+    background-color: var(--ogcol);
+    padding: 1em 2em;
+    position: absolute;
+    left: 42em;
+    bottom: 6em;
+
+}
+
+
+/* ==============
+    Footer
+================ */
+
+footer{
+    padding-bottom: 2em;
+    padding-top: 3em;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--footerbg);
+}
+
+.footer-logo{
+    display: block;
+    margin-bottom: 2em;
+}
+
+.footer-icon{
+    height: 40px;
+    margin-right: 1.5em;
+    margin-bottom: 1.7em;
+}
+
+.footer-s1{
+    margin-left: 2em;
+}
+
+.footer-s1 > p{
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+/* ==== Footer Lists ==== */
+
+.footer-s2 > ul{
+    list-style: none;
+   
+}
+
+.footer-s2 > ul > li{
+    margin-bottom: 1.2em;
+    font-weight: 300;
+}
+
+.footer-s2 > ul > li > a{
+    text-decoration: none;
+    color: var(--white);
+    opacity: 0.7;
+}
+
+.footer-s2 > ul > li > a > span{
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.get-in-toch{
+    margin-right: 5em;
+}
+
+/* =================
+Divider
+=================== */
+.divider{
+    height: 6em;
+    background-color: var(--dividerbg);
+    border-top: 1px solid var(--white);
 }
